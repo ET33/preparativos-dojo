@@ -28,7 +28,8 @@ Você pode consultar instruções (em inglês!) nos [documentos do site oficial]
 Para realizar o Dojo, você precisará instalar a extensão ___Live Share___. Basta procurar e instalar pela aba de extensões <img src="imgs/liveshare-icon.png"/>  
 ![Instalação Live Share](imgs/liveshare.gif)
 ### Usando no navegador (browser)
-![Usando ](imgs/liveshare-browser.png)
+![Usando ](imgs/liveshare-browser.png)  
+Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+Q</kbd> ou <kbd>Ctrl+W</kbd> podem fechar a janela/aba... E aí será preciso reconectar na sala!
 ## Instruções durante o Dojo
 Para melhorar a experiência durante a dinâmica e abrir espaço para todos, serão propostas certas regras:
 ### Chamar atenção
@@ -37,5 +38,5 @@ O botão **"Chamar Atenção" (Focus Attention)** quando quiser que todos os par
 ### Execução do programa
 ### Comentários na linha
 ### "Fui kickado sem querer! E agora!?"
-### Bugs conhecidos (e como evitá-los!
+### Bugs conhecidos (e como evitá-los!)
 ## Dicas
