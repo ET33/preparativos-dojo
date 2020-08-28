@@ -23,7 +23,8 @@
 
 ## Primeiros passos
 ### Instalando no computador
-Você pode instalar o VS Code pelos links de Download em: https://code.visualstudio.com/Download
+Você pode instalar o VS Code pelos links de Download em: https://code.visualstudio.com/Download  
+Você pode também instalar o VS Code já configurado para desenvolvimento Java (com as extensões e o JDK), para `windows` e `mac` nesse link: https://code.visualstudio.com/docs/java/java-tutorial
 
 #### Opções para se instalar em Linux:  
 Você pode consultar instruções (em inglês!) nos [documentos do site oficial](https://code.visualstudio.com/docs/setup/linux), mas aqui vai uma lista para os casos mais comuns:
