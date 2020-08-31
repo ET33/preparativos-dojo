@@ -1,5 +1,5 @@
 # Discord
-    Para podermos nos comunicar no dia da dinâmica em grupo, vamos utilizar o **Discord**, para quem não conhece é um aplicativo gratuito, onde podemos ter comunicação por texto, imagem, vídeo e áudio entre os usuários em um canal de bate-papo.
+Para podermos nos comunicar no dia da dinâmica em grupo, vamos utilizar o Discord, para quem não conhece é um aplicativo gratuito, onde podemos ter comunicação por texto, imagem, vídeo e áudio entre os usuários em um canal de bate-papo.
 
 ## Ainda não tem conta no Discord? Segue aqui os passos pra você
 ### 1. Como acessar: 
@@ -15,4 +15,4 @@
 
 
 ## Ja tem uma conta? Se liga em como será no dia:
-    Será compartilhado com vocês um link para entrar no Servidor do Estágio Tech 2021. Dentro do Discord vocês serão divididos em grupos, conforme orientações dos responsáveis, onde terão uma sala para cada grupo.
+Será compartilhado com vocês um link para entrar no Servidor do Estágio Tech 2021. Dentro do Discord vocês serão divididos em grupos, conforme orientações dos responsáveis, onde terão uma sala para cada grupo.
