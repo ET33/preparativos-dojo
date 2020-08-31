@@ -74,7 +74,7 @@ Mas caso isso venha a acontecer, basta notificar ao grupo da dinâmica sobre o o
 
 ### Bugs conhecidos (e como evitá-los!)
 Até o momento, foi identificado apenas um bug... e ele pode acontecer ao usar a **versão do navegador**.  
-<small>_"- Heey...! Com a versão instalada não teremos esse problema... hehe"_ `:stuck_out_tongue: 	`</small>
+<small>_"- Heey...! Com a versão instalada não teremos esse problema... hehe"_ :stuck_out_tongue:</small>
 
 Às vezes, ao salvar um arquivo e imediatamente tirar o foco do VS Code (trocar de janela, por exemplo), o arquivo fica salvando em loop, e crescendo sem parar!  
 
