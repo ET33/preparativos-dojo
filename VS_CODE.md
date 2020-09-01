@@ -12,7 +12,7 @@
       - [Java Extension Pack](#java-extension-pack)
       - [Live Share](#live-share)
       - [Usando o Live Share no navegador (browser)](#usando-o-live-share-no-navegador-browser)
-  - [Instruções duranhttps://prod.liveshare.vsengsaas.visualstudio.com/join?3EF1A6FB75930038AD4F22149CE0C1AA48B3te o Dojo](#instruções-durante-o-dojo)
+  - [Instruções durante o Dojo](#instruções-durante-o-dojo)
     - [Chamar atenção](#chamar-atenção)
     - [Seguir cursor](#seguir-cursor)
     - [Execução do programa](#execução-do-programa)
@@ -23,13 +23,49 @@
 
 ## Primeiros passos
 ### Instalando no computador
-Você pode instalar o VS Code pelos links de Download em: https://code.visualstudio.com/Download  
-Você pode também instalar o VS Code já configurado para desenvolvimento Java (com as extensões e o JDK), para `windows` e `mac` nesse link: https://code.visualstudio.com/docs/java/java-tutorial
+
+#### Windows e MacOS
+Preferivelmente, você pode instalar o VS Code já com algumas extensões que vão auxiliar no manuseio do Java:
+
+[Windows](https://aka.ms/vscode-java-installer-win)  
+[MacOS](https://aka.ms/vscode-java-installer-mac)
+
+É recomendável instalar o JDK (Java Development Kit) e as extensões
+
+Ou ainda, você pode também instalar apenas o VS Code utilizando os instaladores, que podem ser encontrados em: https://code.visualstudio.com/Download
 
 #### Opções para se instalar em Linux:  
-Você pode consultar instruções (em inglês!) nos [documentos do site oficial](https://code.visualstudio.com/docs/setup/linux), mas aqui vai uma lista para os casos mais comuns:
+Você pode consultar instruções (em inglês!) nos [documentos do site oficial](https://code.visualstudio.com/docs/setup/linux), mas aqui vai uma lista para os casos mais comuns (instruções apenas para Sistemas Operacionais 64-bit):
+
 ##### Distribuições Ubuntu ou baseadas em Debian:
+Baixe o [arquivo .deb](https://go.microsoft.com/fwlink/?LinkID=760868), e em seguida rode os comandos:
+```bash
+sudo dpkg -i <file>.deb
+sudo apt-get install -f # Install dependencies
+```
+
 ##### Distribuições Fedora:
+Rodar os comandos abaixo para registrar o repositório do VS Code.
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+```
+
+Atualizar e instalar o pacote do editor:
+
+Usando `dnf` (Versão Fedora 22 ou acima)
+```
+sudo dnf check-update
+sudo dnf install code
+```
+
+Usando `yum` para versões anteriores do Fedora:
+```
+yum check-update
+sudo yum install code
+```
+
+---
 
 ## Extensões
 
@@ -81,3 +117,11 @@ Até o momento, foi identificado apenas um bug... e ele pode acontecer ao usar a
 Felizmente a solução é simples: caso o bug aconteça com você, basta fechar o arquivo do seu editor!
 
 ## Dicas
+
+Atalhos do teclado, caso esteja procurando :wink:
+
+[Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
+[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
+[MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
+Caso já esteja acostumado com algum outro editor (Vim, Emacs, Eclipse, Sublime, Atom, ...) poderá utilizar alguns atalhos através de extensões Keymaps. Basta acessar o menu e procurar por **File > Preferences > Keymap Extensions**
