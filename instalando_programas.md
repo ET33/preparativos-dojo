@@ -2,13 +2,12 @@
 
 Durante o dojo, o VS Code (com Live Share) e Discord serão as ferramentas principais que vamos usar! o/
 
-:warning:  
-A propósito, a linguagem que será utilizada durante o dojo é Java! Mas não se preocupe, não é preciso tê-lo instalado na hora! Aqui vão estar instruções para caso queira brincar com a linguagem para se preparar :wink:
+:warning: A propósito, a linguagem que será utilizada durante o dojo é Java! Mas não se preocupe, não é preciso tê-lo instalado na hora! Aqui vão estar instruções para caso queira brincar com a linguagem para se preparar :wink:
 
 ## Manuais
 - [VS Code](#vs-code)
 - [Discord](#discord)
-- [Java](#java)
+- [Java](#java-opcional)
 
 
 ## VS Code
@@ -18,6 +17,8 @@ Preferivelmente, você pode instalar o VS Code já com algumas extensões que v�
 
 [Windows](https://aka.ms/vscode-java-installer-win)  
 [MacOS](https://aka.ms/vscode-java-installer-mac)
+
+Doc. oficial [aqui](https://code.visualstudio.com/docs/java/java-tutorial)
 
 É recomendável instalar o JDK (Java Development Kit) e as extensões. Se optar por essa alternativa, já terá o java instalado junto!
 
@@ -69,7 +70,7 @@ Essa extensão é opcional, mas ela traz funcionalidades interessantes como: aut
 ![Instalação Java Extension Pack](imgs/java-extension.gif)
 
 Caso ainda não tenha o JDK instalado, na sessão [Java](#java) há instruções para configurá-lo em Linux.  
-<small>P.S.: Estou assumindo aqui que se você usa Windows ou Mac, instalou o JDK via o instalador do VS Code mencionado [acima](#windows-e-macos)!</small>
+.S.: Estou assumindo aqui que se você usa Windows ou Mac, o JDK foi instalado via o instalador do VS Code mencionado [acima](#windows-e-macos)!
 
 ## Discord
 Para podermos nos comunicar no dia da dinâmica em grupo, vamos utilizar o Discord, para quem não conhece é um aplicativo gratuito, onde podemos ter comunicação por texto, imagem, vídeo e áudio entre os usuários em um canal de bate-papo.
@@ -107,12 +108,12 @@ Se bater aquela preguiça pra configurar tudo antes de poder brincar com a lingu
 - [IDE One](https://ideone.com/)
 
 ### Instalando o JDK (opcional)
-Para usuários de Windows ou Mac: para o nosso caso... a maneira mais fácil é usando o instalador do VS Code que já vem com Java! Caso já tenha instalado o VS Code sem usar esse instalador, não tem problema! O instalador também serve para instalar somente o JDK. :wink:
+Para usuários de Windows ou Mac: no caso do Dojo... a maneira mais fácil é usando o instalador do VS Code que já vem com Java! Caso já tenha instalado o VS Code sem usar esse instalador, não tem problema! O instalador também serve para instalar somente o JDK. :wink:
 
-Nos demais casos (Linux em geral), a coisa é um pouco manual. 
+Nos demais casos (Linux em geral), a coisa é manual. 
 ### Instalação convencional do JDK
 Baixe o arquivo compactado do JDK da [AdoptOpenJDK](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8+10/OpenJDK11U-jdk_x64_linux_hotspot_11.0.8_10.tar.gz).  
-<small>Fica aqui apenas para registro, caso venha a curiosidade: a versão desse arquivo é o OpenJDK 11, com a implementação HotSpot da JVM</small>
+Fica aqui apenas para registro, caso venha a curiosidade: a versão desse arquivo é o OpenJDK 11, com a implementação HotSpot da JVM
 
 Após baixar o arquivo, abra o terminal e vá até o local onde baixou o arquivo (provavelmente em Downloads) e extraia o conteúdo usando o comando
 ```bash
@@ -156,5 +157,12 @@ java -version
 # > OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.8+10, mixed mode)
 ```
 
-#### EXTRA
-Se o seu VS Code ainda não reconhece 
+\* Se o seu VS Code ainda não reconhece o JDK, será preciso indicar manualmente o caminho dele!
+
+![gif tutorial para reconhecer jdk](imgs/vscode-jdk.gif)
+
+## Done!
+Agora que você já tem as ferramentas que vamos usar, é só arrebentar no Dojo!
+![matrix neo kunfu](https://media.giphy.com/media/fSSGX7IHcqlDYwVYsH/giphy.gif)
+
+Agora, é uma boa já se familiarizar com o Live Share! Veja [aqui](vs_code.md) como usaremos ele no dia da dinâmica!
