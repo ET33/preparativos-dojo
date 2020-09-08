@@ -24,63 +24,6 @@
 ## Primeiros passos
 ### Instalando no computador
 
-#### Windows e MacOS
-Preferivelmente, você pode instalar o VS Code já com algumas extensões que vão auxiliar no manuseio do Java:
-
-[Windows](https://aka.ms/vscode-java-installer-win)  
-[MacOS](https://aka.ms/vscode-java-installer-mac)
-
-É recomendável instalar o JDK (Java Development Kit) e as extensões
-
-Ou ainda, você pode também instalar apenas o VS Code utilizando os instaladores, que podem ser encontrados em: https://code.visualstudio.com/Download
-
-#### Opções para se instalar em Linux:  
-Você pode consultar instruções (em inglês!) nos [documentos do site oficial](https://code.visualstudio.com/docs/setup/linux), mas aqui vai uma lista para os casos mais comuns (instruções apenas para Sistemas Operacionais 64-bit):
-
-##### Distribuições Ubuntu ou baseadas em Debian:
-Baixe o [arquivo .deb](https://go.microsoft.com/fwlink/?LinkID=760868), e em seguida rode os comandos:
-```bash
-sudo dpkg -i <file>.deb
-sudo apt-get install -f # Install dependencies
-```
-
-##### Distribuições Fedora:
-Rodar os comandos abaixo para registrar o repositório do VS Code.
-```
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-```
-
-Atualizar e instalar o pacote do editor:
-
-Usando `dnf` (Versão Fedora 22 ou acima)
-```
-sudo dnf check-update
-sudo dnf install code
-```
-
-Usando `yum` para versões anteriores do Fedora:
-```
-yum check-update
-sudo yum install code
-```
-
----
-
-## Extensões
-
-#### Java Extension Pack
-Iremos utilizar a linguagem Java no Dojo então é interessante que vocês instalem o ___Java Extension Pack___. Basta procurar e instalar pela aba de extensões  
-<img src="imgs/extension-icon.png"/>  
-
-![Instalação Java Extension Pack](imgs/java-extension.gif)
-
-#### Live Share
-Para realizar o Dojo, você precisará instalar a extensão ___Live Share___. Basta procurar e instalar pela aba de extensões  
-<img src="imgs/extension-icon.png"/>  
-
-![Instalação Live Share](imgs/liveshare.gif)
-
 #### Usando o Live Share no navegador (browser)
 ![Usando ](imgs/liveshare-browser.png)  
 Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+Q</kbd> ou <kbd>Ctrl+W</kbd> podem fechar a janela/aba... E aí será preciso reconectar na sala!
@@ -95,8 +38,12 @@ Ao utilizar esta função, todos os participantes entram no modo "Seguindo curso
 ### Seguindo cursor
 Quando estiver nesse modo, o seu cursor vai ficar seguindo o cursor de algum outro participante. Para desabilitá-lo, basta clicar no círculo colorido à esquerda do nome do participante que está seguindo (no menu lateral da aba Live Share).
 
+![seguindo cursor](imgs/follow.jpg)
+
 ### Execução do programa/Terminal compartilhado
 É possível compartilhar a visão de um terminal dentro do VS Code. O programa será executado através deste terminal, caso seja necessário executá-lo.
+
+![Terminal compartilhado](imgs/terminal.jpg)
 
 Atenção! Por questões de segurança, não será liberado a permissão de escrita no terminal para os participantes da dinâmica! Apenas os condutores da dinâmica terão essa habilidade.
 
