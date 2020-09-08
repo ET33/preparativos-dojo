@@ -1,30 +1,27 @@
 # VS Code
 
 ## Tópicos
-- [VS Code](#vs-code)
-  - [Tópicos](#tópicos)
-  - [Primeiros passos](#primeiros-passos)
-    - [Instalando no computador](#instalando-no-computador)
-      - [Opções para se instalar em Linux:](#opções-para-se-instalar-em-linux)
-        - [Distribuições Ubuntu ou baseadas em Debian:](#distribuições-ubuntu-ou-baseadas-em-debian)
-        - [Distribuições Fedora:](#distribuições-fedora)
-  - [Extensões](#extensões)
-      - [Java Extension Pack](#java-extension-pack)
-      - [Live Share](#live-share)
-      - [Usando o Live Share no navegador (browser)](#usando-o-live-share-no-navegador-browser)
-  - [Instruções durante o Dojo](#instruções-durante-o-dojo)
-    - [Chamar atenção](#chamar-atenção)
-    - [Seguir cursor](#seguir-cursor)
-    - [Execução do programa](#execução-do-programa)
-    - [Comentários na linha](#comentários-na-linha)
-    - ["Fui kickado sem querer! E agora!?"](#fui-kickado-sem-querer-e-agora)
-    - [Bugs conhecidos (e como evitá-los!)](#bugs-conhecidos-e-como-evitá-los)
-  - [Dicas](#dicas)
+- [Primeiros passos](#primeiros-passos)
+- [Extensões](#extensões)
+    - [Java Extension Pack](#java-extension-pack)
+    - [Live Share](#live-share)
+    - [Usando o Live Share no navegador (browser)](#usando-o-live-share-no-navegador-browser)
+- [Instruções durante o Dojo](#instruções-durante-o-dojo)
+  - [Chamar atenção](#chamar-atenção)
+  - [Seguir cursor](#seguir-cursor)
+  - [Execução do programa](#execução-do-programa)
+  - [Comentários na linha](#comentários-na-linha)
+  - ["Fui kickado sem querer! E agora!?"](#fui-kickado-sem-querer-e-agora)
+  - [Bugs conhecidos (e como evitá-los!)](#bugs-conhecidos-e-como-evitá-los)
+- [Dicas](#dicas)
 
 ## Primeiros passos
-### Instalando no computador
 
-#### Usando o Live Share no navegador (browser)
+### Usando o Live Share
+#### No desktop
+
+
+#### No browser
 ![Usando ](imgs/liveshare-browser.png)  
 Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+Q</kbd> ou <kbd>Ctrl+W</kbd> podem fechar a janela/aba... E aí será preciso reconectar na sala!
 
