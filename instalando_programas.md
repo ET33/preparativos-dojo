@@ -70,7 +70,7 @@ Essa extensão é opcional, mas ela traz funcionalidades interessantes como: aut
 ![Instalação Java Extension Pack](imgs/java-extension.gif)
 
 Caso ainda não tenha o JDK instalado, na sessão [Java](#java) há instruções para configurá-lo em Linux.  
-.S.: Estou assumindo aqui que se você usa Windows ou Mac, o JDK foi instalado via o instalador do VS Code mencionado [acima](#windows-e-macos)!
+Obs.: Estou assumindo aqui que se você usa Windows ou Mac, o JDK foi instalado via o instalador do VS Code mencionado [acima](#windows-e-macos)! :stuck_out_tongue:
 
 ## Discord
 Para podermos nos comunicar no dia da dinâmica em grupo, vamos utilizar o Discord, para quem não conhece é um aplicativo gratuito, onde podemos ter comunicação por texto, imagem, vídeo e áudio entre os usuários em um canal de bate-papo.
