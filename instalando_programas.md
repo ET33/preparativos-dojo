@@ -91,9 +91,12 @@ Acesse esse link: https://discord.com/
 1. Início[em amarelo]: podemos falar individualmente com os amigos que tivermos no Discord, por mensagens, vídeo ou aúdio.  </br> 
 2. Servidores[em azul]: São os servidores, são como um grupo, onde nele você pode ter chamadas de voz, de vídeo, e um canal para bate-papo em grupo.
 
-
 ### Ja tem uma conta? Se liga em como será no dia:
 Será compartilhado com vocês um link para entrar no Servidor do Estágio Tech 2021. Dentro do Discord vocês serão divididos em grupos, conforme orientações dos responsáveis, onde terão uma sala para cada grupo.
+
+### Ajude-nos a saber quem é você!
+![alert gif](imgs/alert.gif) Quando entrar no servidor da dinâmica, pedimos que use o seu nome como apelido para que possamos identificá-lo facilmente!
+![mudar apelido discord gif](imgs/change-discord-nickname.gif)
 
 ## Java (Opcional)
 Utilizaremos a linguagem Java no Dojo, porém não será necessário ter um ambiente java de desenvolvimento configurado, já que as pessoas que vão acompanhar vocês no Dojo que ficarão responsáveis por rodar o código.
