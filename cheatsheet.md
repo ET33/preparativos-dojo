@@ -35,10 +35,17 @@ O botão **"Chamar Atenção" (Focus Attention)** quando quiser que todos os par
 
 Ao utilizar esta função, todos os participantes entram no modo "Seguindo cursor".
 
+![focus attention imagem](imgs/focus-attention.jpg)
+
 ### Seguindo cursor
 Quando estiver nesse modo, o seu cursor vai ficar seguindo o cursor de algum outro participante. Para desabilitá-lo, basta clicar no círculo colorido à esquerda do nome do participante que está seguindo (no menu lateral da aba Live Share).
 
 ![seguindo cursor](imgs/follow.jpg)
+
+### Undo e Redo
+Ahh, famoso <kbd>Ctrl+Z</kbd> e <kbd>Ctrl+Y</kbd> que já salvou tanto...
+
+Então, infelizmente o Undo e Redo dentro do Live Share é **compartilhado**! Ou seja, _"Cuidado para não desfazer as coisas do colega sem querer!"_
 
 ### Execução do programa/Terminal compartilhado
 É possível compartilhar a visão de um terminal dentro do VS Code. O programa será executado através deste terminal, caso seja necessário executá-lo.
@@ -50,6 +57,8 @@ Atenção! Por questões de segurança, não será liberado a permissão de escr
 ### Comentários na linha
 **Lembre-se de respeitar o piloto e o co-piloto!**  
 É possível deixar comentários em uma linha clicando no botão <kbd>+</kbd> logo ao lado do número da linha. Entretanto, use-o com bom senso!
+
+![comentários na linha gif](imgs/comentario-linha.gif)
 
 ### "Fui kickado sem querer! E agora!?"
 Nada de pânico! A única pessoa que pode expulsar outros usuários da sala é o dono da sessão Live Share (host), e ele não expulsará ninguém intencionalmente :)  
@@ -71,4 +80,8 @@ Tá aí então uma colinha de atalhos padrão do VS Code :wink:
 [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
 [MacOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
-Caso já esteja acostumado com algum outro editor (Vim, Emacs, Eclipse, Sublime, Atom, ...) poderá utilizar alguns atalhos através de extensões Keymaps. Basta acessar o menu e procurar por **File > Preferences > Keymap Extensions**
+Você pode também consultar alguns atalhos dentro do próprio VS Code  
+![atalhos de teclado vscode](imgs/keyboard-shortcuts.jpg)
+
+Caso já esteja acostumado com algum outro editor (Vim, Emacs, Eclipse, Sublime, Atom, ...) poderá utilizar alguns atalhos através de extensões Keymaps. Basta acessar o menu e procurar por **File > Preferences > Keymap Extensions**  
+![opções extensões keymaps](imgs/keymaps.png)
