@@ -2,10 +2,9 @@
 
 ## Tópicos
 - [Primeiros passos](#primeiros-passos)
-- [Extensões](#extensões)
-    - [Java Extension Pack](#java-extension-pack)
-    - [Live Share](#live-share)
-    - [Usando o Live Share no navegador (browser)](#usando-o-live-share-no-navegador-browser)
+    - [Usando o Live Share](#usando-o-live-share)
+      - [No desktop](#no-desktop)
+      - [No broswer](#no-browser)
 - [Instruções durante o Dojo](#instruções-durante-o-dojo)
   - [Chamar atenção](#chamar-atenção)
   - [Seguir cursor](#seguir-cursor)
@@ -22,8 +21,7 @@
 Como funcionará no dia! Você receberá um link com uma carinha parecida com essa:  
 Exemplo `https://prod.liveshare.vsengsaas.visualstudio.com/join?CE765A3F501EAA2589271114DE6DFC8FABDC`
 
-Acessando esse link, você será redirecionado para uma página igual a essa:
-![Usando ](imgs/liveshare-browser.png)  
+![Demo Live Share gif](imgs/liveshare-demo.gif)  
 
 Automaticamente surgirá uma opção para fazer a conexão com a sessão usando o próprio VS Code!
 
@@ -66,8 +64,8 @@ Até o momento, foi identificado apenas um bug... e ele pode acontecer ao usar a
 Felizmente a solução é simples: caso o bug aconteça com você, basta fechar o arquivo do seu editor!
 
 ## Dicas
-
-Atalhos do teclado, caso esteja procurando :wink:
+Bom, a gente sabe que atalhos no teclado são uma maravilha, e economizam muito tempo!  
+Tá aí então uma colinha de atalhos padrão do VS Code :wink:
 
 [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
 [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
