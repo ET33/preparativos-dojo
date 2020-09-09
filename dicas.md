@@ -7,8 +7,9 @@
       - [No broswer](#no-browser)
 - [Instruções durante o Dojo](#instruções-durante-o-dojo)
   - [Chamar atenção](#chamar-atenção)
-  - [Seguir cursor](#seguir-cursor)
-  - [Execução do programa](#execução-do-programa)
+  - [Seguindo cursor](#seguindo-cursor)
+  - [Undo e Redo](#undo-e-redo)
+  - [Execução do programa / Terminal compartilhado](#execução-do-programa-terminal-compartilhado)
   - [Comentários na linha](#comentários-na-linha)
   - ["Fui kickado sem querer! E agora!?"](#fui-kickado-sem-querer-e-agora)
   - [Bugs conhecidos (e como evitá-los!)](#bugs-conhecidos-e-como-evitá-los)
@@ -30,8 +31,9 @@ Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+
 
 ## Instruções durante o Dojo
 Para melhorar a experiência durante a dinâmica e abrir espaço para todos, serão propostas certas regras:
+
 ### Chamar atenção
-O botão **"Chamar Atenção" (Focus Attention)** quando quiser que todos os participantes olhem para a sua linha atual. Use-o apenas quando você for o **piloto** da rodada, ou quando julgar necessário ;)
+Use o botão **"Chamar Atenção" (Focus Participants)** quando quiser que todos os participantes olhem para a sua linha atual. Use-o apenas quando você for o **piloto** da rodada, ou quando julgar necessário!
 
 Ao utilizar esta função, todos os participantes entram no modo "Seguindo cursor".
 
@@ -66,7 +68,7 @@ Mas caso isso venha a acontecer, basta notificar ao grupo da dinâmica sobre o o
 
 ### Bugs conhecidos (e como evitá-los!)
 Até o momento, foi identificado apenas um bug... e ele pode acontecer ao usar a **versão do navegador**.  
-<small>_"- Heey...! Com a versão instalada não teremos esse problema... hehe"_ :stuck_out_tongue:</small>
+_"- Heey...! Com a versão instalada não teremos esse problema... hehe"_ :stuck_out_tongue:
 
 Às vezes, ao salvar um arquivo e imediatamente tirar o foco do VS Code (trocar de janela, por exemplo), o arquivo fica salvando em loop, e crescendo sem parar!  
 
