@@ -166,7 +166,7 @@ java -version
 ![gif tutorial para reconhecer jdk](imgs/vscode-jdk.gif)
 
 ## Done!
-Agora que você já tem as ferramentas que vamos usar, é só arrebentar no Dojo!
+Agora que você já tem as ferramentas que vamos usar, é só arrebentar no Dojo!  
 ![matrix neo kunfu](https://media.giphy.com/media/fSSGX7IHcqlDYwVYsH/giphy.gif)
 
 Agora, é uma boa já se familiarizar com o Live Share! Veja [aqui](vs_code.md) como usaremos ele no dia da dinâmica!
