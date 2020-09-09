@@ -19,10 +19,15 @@
 
 ### Usando o Live Share
 #### No desktop
+Como funcionará no dia! Você receberá um link com uma carinha parecida com essa:  
+Exemplo `https://prod.liveshare.vsengsaas.visualstudio.com/join?CE765A3F501EAA2589271114DE6DFC8FABDC`
 
+Acessando esse link, você será redirecionado para uma página igual a essa:
+![Usando ](imgs/liveshare-browser.png)  
+
+Automaticamente surgirá uma opção para fazer a conexão com a sessão usando o próprio VS Code!
 
 #### No browser
-![Usando ](imgs/liveshare-browser.png)  
 Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+Q</kbd> ou <kbd>Ctrl+W</kbd> podem fechar a janela/aba... E aí será preciso reconectar na sala!
 
 ## Instruções durante o Dojo

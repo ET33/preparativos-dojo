@@ -2,13 +2,14 @@
 
 Durante o dojo, o VS Code (com Live Share) e Discord serão as ferramentas principais que vamos usar! o/
 
+Nessa página aqui terá instruções para instalá-los nos SOs Windows, MacOS e Linux (Ubuntu principalmente)
+
 :warning: A propósito, a linguagem que será utilizada durante o dojo é Java! Mas não se preocupe, não é preciso tê-lo instalado na hora! Aqui vão estar instruções para caso queira brincar com a linguagem para se preparar :wink:
 
 ## Manuais
 - [VS Code](#vs-code)
 - [Discord](#discord)
 - [Java](#java-opcional)
-
 
 ## VS Code
 
@@ -31,7 +32,7 @@ Você pode consultar instruções (em inglês!) nos [documentos do site oficial]
 Baixe o [arquivo .deb](https://go.microsoft.com/fwlink/?LinkID=760868), e em seguida rode os comandos:
 ```bash
 sudo dpkg -i <file>.deb
-sudo apt-get install -f # Install dependencies
+sudo apt-get install -f # Instala dependências
 ```
 
 #### Distribuições Fedora:
@@ -63,6 +64,9 @@ O suporte para linguagem Java, e o Live Share são instalados através das exten
 
 #### Live Share
 Esse aqui é essencial! Para realizar o Dojo, você precisará instalar a extensão ___Live Share___.
+
+![alert gif](imgs/alert.gif) Para utilizar o Live Share, **é preciso** ter uma conta **GitHub** ou **Microsoft**!
+
 ![Instalação Live Share](imgs/liveshare.gif)
 
 #### Java Extension Pack (Opcional)
@@ -129,7 +133,7 @@ mv jdk-11.0.8+10 $HOME/.java_versions
 
 Agora só falta configurar sua variável de ambiente `JAVA_HOME` e colocar o binário do java em `$PATH`:
 
-:warning: Rode apenas __uma__ das 3 opções abaixo:
+:warning: Rode apenas __uma__ das 3 opções abaixo (a que for adequada ao seu caso):
 
 ```bash
 # Para bash, se você já usa .bash_profile
