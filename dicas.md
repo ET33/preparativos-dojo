@@ -9,11 +9,11 @@
   - [Chamar atenção](#chamar-atenção)
   - [Seguindo cursor](#seguindo-cursor)
   - [Undo e Redo](#undo-e-redo)
-  - [Execução do programa / Terminal compartilhado](#execução-do-programa-terminal-compartilhado)
+  - [Terminal compartilhado](#terminal-compartilhado)
   - [Comentários na linha](#comentários-na-linha)
   - ["Fui kickado sem querer! E agora!?"](#fui-kickado-sem-querer-e-agora)
   - [Bugs conhecidos (e como evitá-los!)](#bugs-conhecidos-e-como-evitá-los)
-- [Dicas](#dicas)
+- [Atalhos do teclado](#atalhos-do-teclado)
 
 ## Primeiros passos
 
@@ -49,7 +49,7 @@ Ahh, famoso <kbd>Ctrl+Z</kbd> e <kbd>Ctrl+Y</kbd> que já salvou tanto...
 
 Então, infelizmente o Undo e Redo dentro do Live Share é **compartilhado**! Ou seja, _"Cuidado para não desfazer as coisas do colega sem querer!"_
 
-### Execução do programa/Terminal compartilhado
+### Terminal compartilhado
 É possível compartilhar a visão de um terminal dentro do VS Code. O programa será executado através deste terminal, caso seja necessário executá-lo.
 
 ![Terminal compartilhado](imgs/terminal.jpg)
@@ -74,7 +74,7 @@ _"- Heey...! Com a versão instalada não teremos esse problema... hehe"_ :stuck
 
 Felizmente a solução é simples: caso o bug aconteça com você, basta fechar o arquivo do seu editor!
 
-## Dicas
+## Atalhos do teclado
 Bom, a gente sabe que atalhos no teclado são uma maravilha, e economizam muito tempo!  
 Tá aí então uma colinha de atalhos padrão do VS Code :wink:
 
