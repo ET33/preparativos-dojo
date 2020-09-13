@@ -142,17 +142,17 @@ Agora só falta configurar sua variável de ambiente `JAVA_HOME` e colocar o bin
 # Para bash, se você já usa .bash_profile
 echo "export JAVA_HOME=\$HOME/.java_versions/jdk-11.0.8+10
 export PATH=\$JAVA_HOME/bin:\$PATH" >> $HOME/.bash_profile
-source .bash_profile
+source $HOME/.bash_profile
 
 # Para Ubuntu Desktop
 echo "export JAVA_HOME=\$HOME/.java_versions/jdk-11.0.8+10
 export PATH=\$JAVA_HOME/bin:\$PATH" >> $HOME/.bashrc
-source .bashrc
+source $HOME/.bashrc
 
 # Para Zsh
 echo "export JAVA_HOME=\$HOME/.java_versions/jdk-11.0.8+10
 export PATH=\$JAVA_HOME/bin:\$PATH" >> $HOME/.zshrc
-source .zshrc
+source $HOME/.zshrc
 ```
 
 Verifique se está tudo certo!
