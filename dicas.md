@@ -4,7 +4,6 @@
 - [Primeiros passos](#primeiros-passos)
     - [Usando o Live Share](#usando-o-live-share)
       - [No desktop](#no-desktop)
-      - [No broswer](#no-browser)
 - [Instruções durante o Dojo](#instruções-durante-o-dojo)
   - [Chamar atenção](#chamar-atenção)
   - [Seguindo cursor](#seguindo-cursor)
@@ -26,8 +25,7 @@ Exemplo `https://prod.liveshare.vsengsaas.visualstudio.com/join?CE765A3F501EAA25
 
 Automaticamente surgirá uma opção para fazer a conexão com a sessão usando o próprio VS Code!
 
-#### No browser
-Detalhe, não se esqueça que você está no navegador! Comandos como <kbd>Ctrl+Q</kbd> ou <kbd>Ctrl+W</kbd> podem fechar a janela/aba... E aí será preciso reconectar na sala!
+![alert gif](imgs/alert.gif) Obs.: No link aparece a opção de acessar pelo Browser. Entretanto, após vários testes essa versão não se mostrou muito estável por enquanto, então **pedimos que use a versão Desktop do VS Code!!**
 
 ## Instruções durante o Dojo
 Para melhorar a experiência durante a dinâmica e abrir espaço para todos, serão propostas certas regras:
